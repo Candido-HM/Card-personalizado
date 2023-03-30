@@ -14,6 +14,7 @@ main {
 }
 main .card {
   width: 98%;
+  height: 520px;
   border-radius: 10px;
   background-color: #ebe6e6;
 }
