@@ -49,6 +49,7 @@ main .card .sectio-info .name {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 1px solid gray;
 }
 main .card .sectio-info .name h1 {
   font-size: 18px;
@@ -63,5 +64,6 @@ main .card .sectio-info .name h2 {
 main .card .sectio-info .name .nationality {
   width: 60px;
   height: 50px;
+  margin-bottom: 20px;
   background: no-repeat 0% 0% / 100% url('/img/mexico.png');
 }
