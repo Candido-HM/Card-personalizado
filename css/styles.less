@@ -1,0 +1,74 @@
+// Variables
+@color-primary: rgb(84, 208, 224);
+@color-card: rgb(235, 230, 230);
+@img-pattern: url('/img/bg-pattern.webp');
+@img-user: url('/img/img-user.webp');
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: @color-primary;
+}
+
+main{
+    width: auto;
+    height: 90%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+    .card{
+        width: 98%;
+        border-radius: 10px;
+        background-color: @color-card;
+
+        .section-img{
+            width: 100%;
+            height: 45%;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            .img-bg{
+                width: 100%;
+                height: 75%;
+                z-index: 1;
+                background: no-repeat 0% 0% / 100% @img-pattern;
+                border-radius: 10px 10px 0px 0px;
+            }
+
+            .img-user{
+                width: 50%;
+                height: 50%;
+                z-index: 2;
+                margin-top: -25%;
+                background: no-repeat 0% 25% / 100% @img-user;
+                border-radius: 100%;
+                border: 5px solid rgb(166, 230, 238);
+            }
+        }
+        .sectio-info{
+            width: auto;
+            padding: 12px;
+            padding-top: 25px;
+            // border: 1px solid red;
+
+            .name{
+                text-align: center;
+                h1 {
+                    font-size: 18px;
+                    margin-top: 0px;
+                    margin-bottom: 3px;
+                }
+                h2 {
+                    font-size: 16px;
+                    margin-top: auto;
+                    margin-bottom: 0px;
+                }
+            }
+        }
+    }
+}
