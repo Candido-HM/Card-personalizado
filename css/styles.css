@@ -7,7 +7,6 @@ body {
 }
 main {
   width: auto;
-  height: 90%;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -15,6 +14,7 @@ main {
 main .card {
   width: 98%;
   height: 520px;
+  margin-bottom: 15px;
   border-radius: 10px;
   background-color: #ebe6e6;
 }
