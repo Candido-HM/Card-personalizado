@@ -138,3 +138,20 @@ main .card .sectio-info .links .img-2 .icon-linkedin {
     height: 60px;
   }
 }
+@media screen and (min-width: 480px) {
+  main .card {
+    width: 73%;
+  }
+  main .card .section-img .img-user {
+    width: 45%;
+  }
+  main .card .sectio-info {
+    padding-top: 20px;
+  }
+  main .card .sectio-info .links .img-1 {
+    height: 65px;
+  }
+  main .card .sectio-info .links .img-2 {
+    height: 65px;
+  }
+}
