@@ -3,6 +3,7 @@
 @color-card: rgb(235, 230, 230);
 @img-pattern: url('/img/bg-pattern.webp');
 @img-user: url('/img/img-user.webp');
+@img-nationality: url('/img/mexico.png');
 
 
 body{
@@ -57,7 +58,9 @@ main{
             // border: 1px solid red;
 
             .name{
-                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
                 h1 {
                     font-size: 18px;
                     margin-top: 0px;
@@ -67,6 +70,11 @@ main{
                     font-size: 16px;
                     margin-top: auto;
                     margin-bottom: 0px;
+                }
+                .nationality {
+                    width: 60px;
+                    height: 50px;
+                    background: no-repeat 0% 0% / 100% @img-nationality;
                 }
             }
         }
