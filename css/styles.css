@@ -35,8 +35,8 @@ main .card .section-img .img-user {
   width: 50%;
   height: 50%;
   z-index: 2;
-  margin-top: -25%;
-  background: no-repeat 0% 25% / 100% url('/img/img-user.webp');
+  margin-top: -30%;
+  background: no-repeat 0% 23% / 100% url('/img/img-user.webp');
   border-radius: 100%;
   border: 5px solid #a6e6ee;
 }
@@ -66,4 +66,46 @@ main .card .sectio-info .name .nationality {
   height: 50px;
   margin-bottom: 20px;
   background: no-repeat 0% 0% / 100% url('/img/mexico.png');
+}
+main .card .sectio-info .links {
+  width: auto;
+  margin-top: 10px;
+}
+main .card .sectio-info .links .img-1 {
+  width: auto;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+}
+main .card .sectio-info .links .img-1 a {
+  width: 50%;
+  height: 100%;
+  display: block;
+}
+main .card .sectio-info .links .img-1 .icon-portafolio {
+  width: 100%;
+  height: 100%;
+  background: no-repeat 50% 50%/40% url('/img/logo.png');
+}
+main .card .sectio-info .links .img-1 .icon-github {
+  width: 100%;
+  height: 100%;
+  background: no-repeat 50% 50% / 40% url('/img/github.svg');
+  filter: invert(35%);
+}
+main .card .sectio-info .links .img-2 {
+  width: auto;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+main .card .sectio-info .links .img-2 a {
+  width: 50%;
+}
+main .card .sectio-info .links .img-2 .icon-linkedin {
+  width: 100%;
+  height: 100%;
+  background: no-repeat 50% 50%/40% url('/img/linkedin.svg');
+  filter: invert(35%);
 }
