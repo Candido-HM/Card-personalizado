@@ -163,8 +163,6 @@ main .card .sectio-info .links .img-2 .icon-linkedin {
   main .card {
     width: 450px;
     height: 650px;
-    margin-top: 50px;
-    margin-bottom: 20px;
   }
   main .card .sectio-info .links .img-1 .icon-portafolio {
     background-size: 30% !important;
@@ -188,7 +186,12 @@ main .card .sectio-info .links .img-2 .icon-linkedin {
 }
 @media screen and (min-width: 1024px) {
   body {
-    height: 100vh;
+    height: 100vh !important;
+    background-color: black;
+  }
+  body main {
+    height: 100%;
+    background-color: aqua;
   }
   body main .card {
     width: 400px !important;
