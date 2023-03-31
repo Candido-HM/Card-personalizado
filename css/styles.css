@@ -158,11 +158,10 @@ main .card .sectio-info .links .img-2 .icon-linkedin {
 }
 @media screen and (min-width: 600px) {
   main {
-    height: auto;
+    height: 100% !important;
   }
   main .card {
-    width: 450px;
-    height: 650px;
+    height: 600px;
   }
   main .card .sectio-info .links .img-1 .icon-portafolio {
     background-size: 30% !important;
