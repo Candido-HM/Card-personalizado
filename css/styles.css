@@ -181,3 +181,12 @@ main .card .sectio-info .links .img-2 .icon-linkedin {
     margin-bottom: 50px;
   }
 }
+@media screen and (min-width: 1024px) {
+  body {
+    height: 100vh;
+  }
+  body main .card {
+    width: 400px !important;
+    height: 550px !important;
+  }
+}
