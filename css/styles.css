@@ -141,6 +141,7 @@ main .card .sectio-info .links .img-2 .icon-linkedin {
 @media screen and (min-width: 480px) {
   main .card {
     width: 73%;
+    height: 600px;
   }
   main .card .section-img .img-user {
     width: 45%;
@@ -153,5 +154,20 @@ main .card .sectio-info .links .img-2 .icon-linkedin {
   }
   main .card .sectio-info .links .img-2 {
     height: 65px;
+  }
+}
+@media screen and (min-width: 600px) {
+  main .card {
+    width: 450px;
+    height: 650px;
+  }
+  main .card .sectio-info .links .img-1 .icon-portafolio {
+    background-size: 30% !important;
+  }
+  main .card .sectio-info .links .img-1 .icon-github {
+    background-size: 30% !important;
+  }
+  main .card .sectio-info .links .img-2 .icon-linkedin {
+    background-size: 30% !important;
   }
 }
