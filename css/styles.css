@@ -173,7 +173,7 @@ main .card .sectio-info .links .img-2 .icon-linkedin {
 }
 @media screen and (min-width: 960px) {
   body {
-    height: 110vh;
+    height: auto;
   }
   body main .card {
     height: 600px;
