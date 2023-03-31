@@ -160,9 +160,6 @@ main .card .sectio-info .links .img-2 .icon-linkedin {
   main {
     height: 100% !important;
   }
-  main .card {
-    height: 600px;
-  }
   main .card .sectio-info .links .img-1 .icon-portafolio {
     background-size: 30% !important;
   }
