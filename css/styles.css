@@ -171,3 +171,8 @@ main .card .sectio-info .links .img-2 .icon-linkedin {
     background-size: 30% !important;
   }
 }
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: red !important;
+  }
+}
